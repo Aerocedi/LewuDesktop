@@ -34,7 +34,14 @@ new Vue({
         {id:'maintenance', name: 'maintenance'},
         {id:'Diesel allocation', name: 'Diesel allocation'},
       ]
+      ,
+      backgr:[
+       { background:' rgb(247, 247, 247) !important',
+        width: '100%'},
+        
+      ]
     },
+    
     methods:{
         changeTit:function(title){
             return this.title=title
