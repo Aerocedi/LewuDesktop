@@ -1,0 +1,58 @@
+html{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+  box-shadow: 0px 0px 5px 0px rgb(158, 158, 158) !important;
+}
+.wrapper .top_navbar{
+    width: calc(100% - 20px);
+    height: 60px;
+    display: flex;
+    position: fixed;
+    top: 10px;
+  }
+a.nav-brand{
+text-decoration: none;
+font-size: 28px;
+color: #007bff ;
+font-weight: 645;
+}
+
+section{
+    background-color: rgb(247, 247, 247) !important;
+    min-height: 100vh;
+    position: relative;
+    margin-top: 50px;
+}
+
+class.px{
+    padding-left: 40px !important;
+}
+input.form-control#formGroupExampleInput2{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+input.form-control#formGroupExampleInput2:focus{
+  transition: ease-in 0.5ms;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-bottom: 2px solid #007bff  !important ;
+}
+a>img.jim{
+height: 180px;
+width: 180px;
+border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
