@@ -48,9 +48,17 @@ width: 180px;
 border-radius: 100px;
 }
 
+@media screen and (min-width:768px){
+  div.navbut{
+    display: none !important;
+  }
+}
+
+
+
 @media screen and (max-width:768px){
-  div.logo{
-    display: none!important ;
+  div.logo2{
+    display: none !important;
   }
 }
 

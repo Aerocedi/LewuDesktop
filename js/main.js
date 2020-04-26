@@ -26,6 +26,9 @@ new Vue({
     finalPage:3,
     con:"Add Employee",
     select: '',
+    display:'block',
+    disp:'none',
+    home:1,
       type: [
          
         {id:'maintenance', name: 'maintenance'},
@@ -137,14 +140,23 @@ new Vue({
             }
 
         },
+
+
+        homeNext:function(){
+            this.home++
+            
+
+        },
+
+
         switchDisp:function(){
             this.Switch=!this.Switch
           
         },
 
-        getDetails:function(){
-           var grp= document.getElementById('grp').nodeValue;
-           return grp
+        nextDetails:function(){
+           this.disp='block'
+           this.display='none'
         }
     }
     
